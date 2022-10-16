@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.964fdded.css",
-    "main.js": "/static/js/main.37445187.js",
+    "main.js": "/static/js/main.e9d8b724.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Priyanka_Shahane1.jpg": "/static/media/Priyanka_Shahane1.cda4a69ee48827ac99a3.jpg",
     "static/media/campaign_monitor.png": "/static/media/campaign_monitor.8d8895f209080cbd5109.png",
@@ -9,11 +9,11 @@
     "static/media/learndigital.google.png": "/static/media/learndigital.google.7d8a1b573376457859f8.png",
     "index.html": "/index.html",
     "main.964fdded.css.map": "/static/css/main.964fdded.css.map",
-    "main.37445187.js.map": "/static/js/main.37445187.js.map",
+    "main.e9d8b724.js.map": "/static/js/main.e9d8b724.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.37445187.js"
+    "static/js/main.e9d8b724.js"
   ]
 }
