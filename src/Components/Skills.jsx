@@ -1,4 +1,4 @@
-import { Box, Icon, Stack, Text } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Icon,  Text } from "@chakra-ui/react";
 import { AiFillHtml5 } from 'react-icons/ai';
 import {DiCss3, DiJavascript, DiReact, DiMongodb, DiNodejsSmall} from 'react-icons/di'
 import {SiExpress} from "react-icons/si";
@@ -6,46 +6,48 @@ import {SiExpress} from "react-icons/si";
 export const Skills = ()=>{
     return (
         <Box
-        minH="100vh"
-        // bgGradient='linear(to-b, gray.200, gray.100)'
-        bgGradient='linear(to-b, blackAlpha.300, blackAlpha.50)'
+       
         p="10"
        
         >
-          <Stack direction={{base:"column", md:"row"}}>
-            <Box>
+          <Grid 
+          color="whiteAlpha.800"
+          templateColumns={{base:"repeat(2, 1fr)", md:"repeat(4, 1fr)", lg:"repeat(6, 1fr)" }}
+          gap={10}
+          >
+            <GridItem >
                 <Icon as={AiFillHtml5} />
                 <Text>HTML</Text>
-            </Box>
+            </GridItem>
             
-            <Box>
+            <GridItem>
                 <Icon as={DiCss3} />
                 <Text>CSS</Text>
-            </Box>
+            </GridItem>
 
-            <Box>
+            <GridItem>
                 <Icon as={DiJavascript} />
                 <Text>JavaScript</Text>
-            </Box>
+            </GridItem>
 
-            <Box>
+            <GridItem>
                 <Icon as={DiReact} />
                 <Text>ReactJS</Text>
-            </Box>
-            <Box>
+            </GridItem>
+            <GridItem>
                 <Icon as={DiMongodb} />
                 <Text>MongoDB</Text>
-            </Box>
+            </GridItem>
 
-            <Box>
+            <GridItem>
                 <Icon as={SiExpress} />
                 <Text>Express</Text>
-            </Box>
-            <Box>
+            </GridItem>
+            <GridItem>
                 <Icon as={DiNodejsSmall} />
                 <Text>NodeJS</Text>
-            </Box>
-          </Stack>  
+            </GridItem>
+          </Grid>  
 
         </Box>
     )

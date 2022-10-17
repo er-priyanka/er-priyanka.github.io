@@ -5,7 +5,7 @@ export const Navbar = ()=>{
  
     return (
         <Flex
-         bgColor="blue.700" 
+         bgColor="blackAlpha.900" 
          py={5} px={{base:5, md:10}}
          position="sticky"
          top="0"
@@ -14,10 +14,10 @@ export const Navbar = ()=>{
          >
          <Show  above="md">
             <Flex fontWeight="bold" gap={5}>
-                <Link href="/">Home</Link>
-                <Link href="/about-me">About me</Link>
-                <Link href="/skills">Skills</Link>
-                <Link href="/projects">Projects</Link>
+                <Link href="#">Home</Link>
+                <Link href="#about-me">About me</Link>
+                <Link href="#skills">Skills</Link>
+                <Link href="#projects">Projects</Link>
             </Flex>
          </Show>
         
@@ -28,7 +28,7 @@ export const Navbar = ()=>{
         <Spacer />
 
           <Flex fontWeight="bold" gap={5}>
-            <Link href="/contact">Contact</Link>
+            <Link href="#contact">Contact</Link>
             <Link target="_blank" href="https://drive.google.com/file/d/1BrfFaqYC1AdFkT648qR7OeutZHXU7yY5/view?usp=sharing">Resume</Link>
           </Flex> 
             

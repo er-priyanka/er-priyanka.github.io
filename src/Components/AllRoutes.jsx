@@ -10,11 +10,11 @@ import { NotFound } from "./NotFound";
 export const AllRoutes = ()=>{
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about-me" element={<AboutMe />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="#" element={<Home />} />
+            <Route path="#about-me" element={<AboutMe />} />
+            <Route path="#skills" element={<Skills />} />
+            <Route path="#projects" element={<Projects />} />
+            <Route path="#contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
 
         

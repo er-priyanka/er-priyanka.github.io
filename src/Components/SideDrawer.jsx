@@ -20,9 +20,6 @@ export const SideDrawer = ()=>{
             placement='left'
             initialFocusRef={firstField}
             onClose={onClose}
-            
-        
-            // width="10%"
             >
                 <DrawerOverlay />
                 <DrawerContent bgColor="blue.800">

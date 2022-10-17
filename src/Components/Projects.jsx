@@ -30,28 +30,19 @@ const projects = [
 export const Projects = ()=>{
 
     return (
-        <Box
-        minH="100vh"
-        // bgGradient='linear(to-b, gray.200, gray.100)'
-        bgGradient='linear(to-b, blackAlpha.300, blackAlpha.50)'
-        py="10"
-       
-        >
-
+        <Box>
         <Grid
         gap={10}
-        w="80%"
         m="auto"
-        templateColumns={{base:'repeat(1, 1fr)',md:'repeat(2, 1fr)', xl:'repeat(3, 1fr)'}}
-
+        templateColumns={{base:'repeat(1, 1fr)',md:'repeat(2, 1fr)', xl:'repeat(2, 1fr)'}}
         >
             {
                projects.map((item, i)=>(
                 <GridItem key={i} border="1px" borderColor="gray.400" borderRadius="xl" p="20px">
-                <Stack spacing="3" textAlign="left">
+                <Stack color="whiteAlpha.800" spacing="3" textAlign="left">
                 <Image w="100%" src={item.image} alt='Image' />
                     <Heading fontSize="xl">{item.title}</Heading>
-                    <Text noOfLines={4} h="100px" w="100%">{item.description}</Text>
+                    <Text  noOfLines={4} minH="100px" w="100%">{item.description}</Text>
                     <Flex gap="2">
                         <Button colorScheme='blue'>
                         <Link target="_blank" href={item.github}> Github</Link> 
