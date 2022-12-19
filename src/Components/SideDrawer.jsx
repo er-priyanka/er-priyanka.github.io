@@ -30,22 +30,22 @@ export const SideDrawer = ()=>{
 
                     <DrawerBody color="whiteAlpha.700">
                         <Stack mt="5">
-                            <Link href="/">
+                            <Link href="#">
                             <Icon mr="4" as={AiFillHome} />
                             Home
                             </Link>
 
-                            <Link href="/about-me">
+                            <Link href="#aboutMe">
                             <Icon mr="4" as={BsPersonPlusFill} />
                             About me
                             </Link>
 
-                            <Link href="/skills">
+                            <Link href="#skills">
                             <Icon mr="4" as={GiSkills} />
                             Skills
                             </Link>
 
-                            <Link href="/projects">
+                            <Link href="#projects">
                             <Icon mr="4" as={FaProjectDiagram} />
                             Projects
                             </Link>
