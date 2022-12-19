@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.74024486.css",
-    "main.js": "/static/js/main.cd780027.js",
+    "main.js": "/static/js/main.f22d6c8b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Priyanka_Shahane1.jpg": "/static/media/Priyanka_Shahane1.5a013370f25062b02914.jpg",
     "static/media/campaign_monitor.png": "/static/media/campaign_monitor.8d8895f209080cbd5109.png",
     "static/media/sendinblue.png": "/static/media/sendinblue.90e8472d53d1be8e4587.png",
+    "static/media/resume.pdf": "/static/media/resume.c27454ed403183de56b3.pdf",
+    "static/media/engagebay.png": "/static/media/engagebay.9d3b2764011c421c1fea.png",
     "static/media/learndigital.google.png": "/static/media/learndigital.google.7d8a1b573376457859f8.png",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.27c04b3a20e7fba54e56.jpg",
     "index.html": "/index.html",
     "main.74024486.css.map": "/static/css/main.74024486.css.map",
-    "main.cd780027.js.map": "/static/js/main.cd780027.js.map",
+    "main.f22d6c8b.js.map": "/static/js/main.f22d6c8b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74024486.css",
-    "static/js/main.cd780027.js"
+    "static/js/main.f22d6c8b.js"
   ]
 }
