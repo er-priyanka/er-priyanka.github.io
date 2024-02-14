@@ -19,6 +19,10 @@ export const AboutMe = ()=>{
     const [skillIndex, setSkillIndex] = useState(0);
     const inputRef = useRef(null);
 
+    const handleClick = () =>{
+        window.open("https://drive.google.com/file/d/1vvo058BmSmgNfAEJqLoqgl0thkUtkNaW/view?usp=sharing");
+    }
+
     useEffect(()=>{
         if(inputRef.current === null){
             inputRef.current = setInterval(() => {
@@ -73,6 +77,8 @@ export const AboutMe = ()=>{
                             _hover={{
                                 bgColor:"green.800"
                             }}
+
+                            onClick={handleClick}
                              >
                             <Icon as={IoMdDownload} 
                             fontSize="xl"

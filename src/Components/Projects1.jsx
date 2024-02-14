@@ -3,6 +3,7 @@ import sendinblue from "../Images/sendinblue.png";
 import campaignmonitor from "../Images/campaign_monitor.png";
 import learnDigitalGoogle from "../Images/learndigital.google.png";
 import engagebay from "../Images/engagebay.png";
+import shubhyatra from "../Images/shubhyatra.png";
 import { useEffect, useRef, useState } from "react";
 import {ChevronLeftIcon, ChevronRightIcon} from "@chakra-ui/icons";
 import {GoPrimitiveDot} from "react-icons/go";
@@ -10,6 +11,44 @@ import { FaGithub } from "react-icons/fa";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 
 const projects = [
+    {
+        image:shubhyatra,
+        title:"Shubhyatra",
+        description:"It is an online travel company that provides online travel services including airline tickets, hotel reservations, train, and bus tickets.",
+        github:"https://github.com/vaibhav-mougha/ShubhYatra?tab=readme-ov-file",
+        deployed_Link:"https://shubhyatra.netlify.app/",
+        stacks:[
+            {name:"HTML", color:"red"},
+            {name:"CSS", color:"blue"},
+            {name:"JavaScript", color:"pink"},
+            {name:"React", color:"teal"},
+            {name:"Chakra UI", color:"yellow"},
+            {name:"Node.JS", color:"green"},
+            {name:"Express.JS", color:"orange"},
+            {name:"Mongodb", color:"green"},
+
+           ]
+    },
+    {
+        image:shubhyatra,
+        title:"CareFit",
+        description:"It is a health and fitness platform where you can Buy online checkup tests and also book session for mind therapy and consult doctors.",
+        github:"https://github.com/dinesh0085/Cult.fit-Clone",
+        deployed_Link:"https://carefit.netlify.app/",
+        stacks:[
+            {name:"HTML", color:"red"},
+            {name:"CSS", color:"blue"},
+            {name:"JavaScript", color:"pink"},
+            {name:"Typescript", color:"green"},
+            {name:"React", color:"teal"},
+            {name:"React-Redux", color:"pink"},
+            {name:"Chakra UI", color:"yellow"},
+            {name:"Node.JS", color:"green"},
+            {name:"Express.JS", color:"orange"},
+            {name:"Mongodb", color:"green"},
+
+           ]
+    },
     {
         image:engagebay,
         title:"engagebay clone",
@@ -54,6 +93,19 @@ const projects = [
         
     },
     {
+        image:learnDigitalGoogle,
+        title:"LearnDigital.withGoogle clone",
+        description:"It is an educational platform which provides some online digital skills course in everything from marketing to coding and beyond.",
+        github:"https://github.com/er-priyanka/posh-window-3045",
+        deployed_Link:"https://nimble-longma-c92858.netlify.app/",
+        stacks:[
+            {name:"HTML", color:"red"},
+            {name:"CSS", color:"blue"},
+            {name:"JavaScript", color:"pink"},
+            {name:"Local Storage", color:"teal"},
+           ]
+    },
+     {
         image:learnDigitalGoogle,
         title:"LearnDigital.withGoogle clone",
         description:"It is an educational platform which provides some online digital skills course in everything from marketing to coding and beyond.",

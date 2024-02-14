@@ -1,7 +1,12 @@
 import { Flex, Link, Show, Spacer} from "@chakra-ui/react";
 import { SideDrawer } from "./SideDrawer";
+import resume from "../resume/resume.pdf";
 
 export const Navbar = ()=>{
+
+  const handleClick = () =>{
+    window.open("https://drive.google.com/file/d/1vvo058BmSmgNfAEJqLoqgl0thkUtkNaW/view?usp=sharing");
+  }
  
     return (
         <Flex
@@ -12,8 +17,9 @@ export const Navbar = ()=>{
          zIndex={100}
          color="whiteAlpha.800"
          alignItems={"center"}
+         fontSize="xl"
          >
-         <Show  above="md">
+         <Show above="md">
             <Flex fontWeight="bold" gap={5} alignItems="center">
                 <Link 
                 href="#" 
@@ -22,7 +28,7 @@ export const Navbar = ()=>{
                   color:"blue.400" 
                 }}
                 fontFamily="-moz-initial"
-                fontSize="2xl"
+                fontSize="3xl"
                 color="blue.400"
                
                 >
@@ -54,15 +60,10 @@ export const Navbar = ()=>{
                 }}
                 >Projects</Link>
             </Flex>
-         </Show>
-        
-        <Show below="md">
-            <SideDrawer />
-        </Show>
 
-        <Spacer />
+            <Spacer />
 
-          <Flex fontWeight="bold" gap={5}>
+            <Flex fontWeight="bold" gap={5}>
             <Link 
             href="#contact"
             _hover={{
@@ -76,10 +77,24 @@ export const Navbar = ()=>{
                   textDecor:"none",
                   color:"blue.400" 
             }}
-            href="https://drive.google.com/file/d/1BrfFaqYC1AdFkT648qR7OeutZHXU7yY5/view?usp=sharing"  download="Priyanka_Shahane_Resume.pdf">
+            href = {resume}
+            // href="https://drive.google.com/file/d/1vvo058BmSmgNfAEJqLoqgl0thkUtkNaW/view?usp=sharing"  
+            download="Priyanka_Shahane_Resume.pdf"
+            onClick={handleClick}
+            >
               Resume
             </Link>
-          </Flex> 
+            </Flex> 
+
+         </Show>
+        
+        <Show below="md">
+            <SideDrawer />
+        </Show>
+
+        
+
+         
             
         </Flex>
         
