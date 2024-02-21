@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.c27516c6.css",
-    "main.js": "/static/js/main.414d37bf.js",
+    "main.js": "/static/js/main.be8bbb80.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/campaign_monitor.png": "/static/media/campaign_monitor.8d8895f209080cbd5109.png",
     "static/media/sendinblue.png": "/static/media/sendinblue.90e8472d53d1be8e4587.png",
     "static/media/engagebay.png": "/static/media/engagebay.9d3b2764011c421c1fea.png",
     "static/media/learndigital.google.png": "/static/media/learndigital.google.7d8a1b573376457859f8.png",
     "static/media/shubhyatra.png": "/static/media/shubhyatra.478ed9145fdb16502774.png",
-    "static/media/resume.pdf": "/static/media/resume.15b7d92a0c1240b6b050.pdf",
+    "static/media/resume.pdf": "/static/media/resume.a35ab5cb51d4993138e5.pdf",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.27c04b3a20e7fba54e56.jpg",
     "index.html": "/index.html",
     "main.c27516c6.css.map": "/static/css/main.c27516c6.css.map",
-    "main.414d37bf.js.map": "/static/js/main.414d37bf.js.map",
+    "main.be8bbb80.js.map": "/static/js/main.be8bbb80.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c27516c6.css",
-    "static/js/main.414d37bf.js"
+    "static/js/main.be8bbb80.js"
   ]
 }
